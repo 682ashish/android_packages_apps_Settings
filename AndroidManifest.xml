@@ -3406,8 +3406,8 @@
 
         <!-- ZenHub -->
         <activity android:name=".Settings$ZenHubSettingsActivity"
-            android:label="@string/zenx_settings_title"
-            android:icon="@drawable/ic_dashboard_zenx"
+            android:label="@string/zenhub_settings_title"
+            android:icon="@drawable/ic_homepage_zenhub"
             android:parentActivityName="com.android.settings">
             <intent-filter android:priority="31">
                 <action android:name="android.intent.action.MAIN" />

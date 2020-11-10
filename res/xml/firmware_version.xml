@@ -90,5 +90,14 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
+  
+
+  <!-- I will try to make my own rom  -->
+    <Preference
+        android:key="Ashish_Pandey"
+        android:title="@string/Ashish_Pandey"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ZenxVersionPreferenceController"/>
 
 </PreferenceScreen>
